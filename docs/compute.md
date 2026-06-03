@@ -3,6 +3,10 @@ id: compute
 title: Cartesi Compute
 ---
 
+:::info Preview smoke test
+This temporary note was added by a test PR to validate the docs **preview deployment** pipeline. It is not merged to `main` and will be removed.
+:::
+
 ## Cartesi Compute SDK
 
 - [Overview](./compute/overview.md)

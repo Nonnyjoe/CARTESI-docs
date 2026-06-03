@@ -24,9 +24,14 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Checkout PR code
         uses: actions/checkout@v4
+        with:
+          # Untrusted PR code runs in this job; don't leave the auth token behind in
+          # .git/config where a build script could read it.
+          persist-credentials: false
 
       # Carry the PR number + event action across to the trusted deploy workflow.
       # The `workflow_run` event does not expose the PR number for forked PRs, so we
@@ -42,6 +47,7 @@ jobs:
           name: pr-meta
           path: pr-meta/
           retention-days: 1
+          if-no-files-found: error
 
       # On `closed` the deploy workflow only needs the metadata above to tear the
       # preview down, so skip the (slow) build entirely.
@@ -73,3 +79,4 @@ jobs:
           name: pr-preview-site
           path: build/
           retention-days: 1
+          if-no-files-found: error

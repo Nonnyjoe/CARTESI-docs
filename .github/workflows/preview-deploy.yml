@@ -27,6 +27,7 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     # Only act on successful builds that originated from a pull_request.
     if: >
       github.event.workflow_run.event == 'pull_request' &&
@@ -40,11 +41,20 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           path: pr-meta
 
-      - name: Read PR metadata
+      - name: Read and validate PR metadata
         id: meta
         run: |
-          echo "number=$(cat pr-meta/number)" >> "$GITHUB_OUTPUT"
-          echo "action=$(cat pr-meta/action)" >> "$GITHUB_OUTPUT"
+          set -euo pipefail
+          number="$(cat pr-meta/number)"
+          action="$(cat pr-meta/action)"
+          # pr-meta is produced in the untrusted build context, so validate before
+          # using it in filesystem paths / API calls (a forked PR could tamper with it).
+          if ! [[ "$number" =~ ^[0-9]+$ ]]; then
+            echo "::error::Refusing to deploy: PR number '$number' is not a positive integer."
+            exit 1
+          fi
+          echo "number=$number" >> "$GITHUB_OUTPUT"
+          echo "action=$action" >> "$GITHUB_OUTPUT"
 
       - name: Download site artifact
         if: steps.meta.outputs.action != 'closed'
@@ -66,8 +76,16 @@ jobs:
           REPO_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           TARGET="pr-preview/pr-${PR_NUMBER}"
 
-          # Check out the gh-pages branch, or start an orphan branch if it doesn't exist.
-          if git clone --quiet --branch gh-pages --single-branch "$REPO_URL" gh-pages 2>/dev/null; then
+          # A successful (non-close) build must contain a homepage; bail rather than
+          # publish a broken/empty preview.
+          if [ "$PR_ACTION" != "closed" ] && [ ! -f "${GITHUB_WORKSPACE}/site/index.html" ]; then
+            echo "::error::Built site artifact is missing index.html; aborting."
+            exit 1
+          fi
+
+          # Shallow clone of just gh-pages (fast even as its history grows), or start an
+          # orphan branch on the very first deploy.
+          if git clone --quiet --depth 1 --branch gh-pages --single-branch "$REPO_URL" gh-pages 2>/dev/null; then
             cd gh-pages
           else
             mkdir gh-pages && cd gh-pages
@@ -78,25 +96,42 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Replace only this PR's directory; leave every other PR's preview intact.
-          rm -rf "$TARGET"
+          # Re-apply only this PR's directory onto the current tree, leaving every other
+          # PR's preview intact. Idempotent, so it is safe to replay on a push retry.
+          apply_change() {
+            rm -rf "$TARGET"
+            if [ "$PR_ACTION" != "closed" ]; then
+              mkdir -p "$TARGET"
+              cp -R "${GITHUB_WORKSPACE}/site/." "$TARGET/"
+            fi
+            touch .nojekyll # serve Docusaurus output verbatim (skip GitHub Pages' Jekyll)
+            git add -A
+          }
+
           if [ "$PR_ACTION" != "closed" ]; then
-            mkdir -p "$TARGET"
-            cp -R "${GITHUB_WORKSPACE}/site/." "$TARGET/"
             MSG="Deploy preview for PR #${PR_NUMBER} (${SRC_SHA})"
           else
             MSG="Remove preview for PR #${PR_NUMBER}"
           fi
-          touch .nojekyll # serve Docusaurus output verbatim (skip GitHub Pages' Jekyll)
 
-          git add -A
+          apply_change
           if git diff --quiet --cached; then
             echo "Nothing to publish."
             exit 0
           fi
           git commit --quiet -m "$MSG"
-          # Writes are serialized by the workflow concurrency group; retry once anyway.
-          git push origin gh-pages || (git fetch origin gh-pages && git rebase origin/gh-pages && git push origin gh-pages)
+
+          # Deploys are serialized by the workflow concurrency group, so a plain push
+          # should succeed. If the branch moved anyway, adopt the latest tree and
+          # re-apply our isolated change (never clobbering other PRs) before retrying.
+          if ! git push --quiet origin gh-pages; then
+            echo "Push rejected; re-syncing gh-pages and retrying."
+            git fetch --quiet --depth 1 origin gh-pages
+            git reset --hard origin/gh-pages
+            apply_change
+            git diff --quiet --cached || git commit --quiet -m "$MSG"
+            git push --quiet origin gh-pages
+          fi
 
       - name: Comment the preview URL on the PR
         env:
@@ -110,6 +145,7 @@ jobs:
           REPO="${GITHUB_REPOSITORY##*/}"
           OWNER_LC="$(echo "$OWNER" | tr '[:upper:]' '[:lower:]')"
           URL="https://${OWNER_LC}.github.io/${REPO}/pr-preview/pr-${PR_NUMBER}/"
+          SHORT_SHA="${SRC_SHA:0:7}"
           MARKER="<!-- docs-pr-preview -->"
 
           if [ "$PR_ACTION" != "closed" ]; then
@@ -119,7 +155,7 @@ jobs:
               echo ""
               echo "**Preview:** $URL"
               echo ""
-              echo "Built from commit \`$SRC_SHA\` and published to GitHub Pages. Updates on every push; removed automatically when this PR is closed."
+              echo "Built from commit \`$SHORT_SHA\` and published to GitHub Pages. Updates on every push; removed automatically when this PR is closed."
             } > body.md
           else
             {

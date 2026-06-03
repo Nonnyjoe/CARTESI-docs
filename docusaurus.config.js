@@ -9,8 +9,12 @@ const replacementPlugin = require("./src/remark/replacement");
 const config = {
   title: "Cartesi Documentation",
   tagline: "Application-specific rollups with a Linux runtime.",
-  url: "https://docs.cartesi.io",
-  baseUrl: "/",
+  // `url`/`baseUrl` default to production (AWS Amplify @ docs.cartesi.io) and are only
+  // overridden via env vars by the PR-preview build, which deploys to a GitHub Pages
+  // sub-path (https://<owner>.github.io/<repo>/pr-preview/pr-<N>/). When the env vars are
+  // unset (local builds and Amplify), behavior is identical to before.
+  url: process.env.DOCS_URL || "https://docs.cartesi.io",
+  baseUrl: process.env.DOCS_BASE_URL || "/",
   trailingSlash: true,
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "throw",

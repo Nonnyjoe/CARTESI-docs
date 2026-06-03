@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[52634],{9428:(e,t,s)=>{s.r(t),s.d(t,{default:()=>n});var r=s(96540),u=s(56347),c=s(88189);const n=function(){return r.createElement(u.rd,{to:(0,c.A)("/cartesi-rollups/1.5/")})}}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[80228],{34603:e=>{e.exports=JSON.parse('{"title":"Cartesi Compute SDK","slug":"cartesi-compute","permalink":"/CARTESI-docs2/pr-preview/pr-9/cartesi-compute","navigation":{"next":{"title":"Overview","permalink":"/CARTESI-docs2/pr-preview/pr-9/compute/overview"}}}')}}]);

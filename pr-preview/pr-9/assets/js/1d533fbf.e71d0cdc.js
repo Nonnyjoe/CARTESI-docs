@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[85415],{6470:e=>{e.exports=JSON.parse('{"title":"New to Cartesi","slug":"/new-to-cartesi","permalink":"/CARTESI-docs2/pr-preview/pr-9/new-to-cartesi","navigation":{"next":{"title":"Cartesi","permalink":"/CARTESI-docs2/pr-preview/pr-9/new-to-cartesi/overview"}}}')}}]);

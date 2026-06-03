@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[94456],{88331:e=>{e.exports=JSON.parse('{"title":"References","slug":"/compute/references","permalink":"/CARTESI-docs2/pr-preview/pr-8/compute/references","navigation":{"previous":{"title":"Full Dogecoin Hash dApp","permalink":"/CARTESI-docs2/pr-preview/pr-8/tutorials/dogecoin-hash/full-dapp"}}}')}}]);

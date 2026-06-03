@@ -1,3 +1,0 @@
-> For the complete documentation index, see [llms.txt](https://docs.cartesi.io/llms.txt)
-
-# tutorials/gpg-verify/ext2-gpg

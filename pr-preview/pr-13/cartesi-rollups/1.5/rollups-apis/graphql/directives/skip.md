@@ -1,3 +1,27 @@
 > For the complete documentation index, see [llms.txt](https://docs.cartesi.io/llms.txt)
 
-# cartesi-rollups/1.5/rollups-apis/graphql/directives/skip
+---
+id: skip
+title: skip
+hide_table_of_contents: false
+---
+
+
+Directs the executor to skip this field or fragment when the `if` argument is true.
+
+```graphql
+directive @skip(
+  if: Boolean!
+)
+```
+
+
+### Arguments
+
+#### [`if`](#) ([`Boolean!`](../../scalars/boolean))
+
+Skipped when true.
+
+
+
+

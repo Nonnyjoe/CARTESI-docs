@@ -476,7 +476,7 @@ If a user's code or question references the old GraphQL API, `sunodo`, or v1.x C
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-machine/ -->
+<!-- source: https://docs.cartesi.io/cartesi-machine/ -->
 
 ---
 title: Introduction
@@ -628,7 +628,7 @@ Although Cartesi's goal is to shield platform users from as much complexity as p
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-machine/blockchain/ -->
+<!-- source: https://docs.cartesi.io/cartesi-machine/blockchain/ -->
 
 ---
 title: Introduction
@@ -654,7 +654,7 @@ It does so in a way that allows smart contracts to specify computations, replace
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-machine/blockchain/hash/ -->
+<!-- source: https://docs.cartesi.io/cartesi-machine/blockchain/hash/ -->
 
 ---
 title: Hash view of state
@@ -804,7 +804,7 @@ This can be the value of a single word in a raw output flash drive, or it can be
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-machine/blockchain/vg/ -->
+<!-- source: https://docs.cartesi.io/cartesi-machine/blockchain/vg/ -->
 
 ---
 title: Verification game
@@ -818,7 +818,7 @@ Meanwhile, for details on how the verification game works, please refer to our [
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-machine/host/ -->
+<!-- source: https://docs.cartesi.io/cartesi-machine/host/ -->
 
 ---
 title: Overview
@@ -909,7 +909,7 @@ Moreover, the cycle counts and outputs may also differ.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-machine/host/cmdline/ -->
+<!-- source: https://docs.cartesi.io/cartesi-machine/host/cmdline/ -->
 
 ---
 title: Command-line interface
@@ -2176,7 +2176,7 @@ The values implied by the `--rollup` command-line option are `--rollup-rx-buffer
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-machine/host/lua/ -->
+<!-- source: https://docs.cartesi.io/cartesi-machine/host/lua/ -->
 
 ---
 title: Lua interface
@@ -4068,7 +4068,7 @@ In a nutshell, only valid state transitions are accepted by the `cartesi.machine
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-machine/target/ -->
+<!-- source: https://docs.cartesi.io/cartesi-machine/target/ -->
 
 ---
 title: Overview
@@ -4087,7 +4087,7 @@ Since there are many more application developers than system developers, we cate
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-machine/target/architecture/ -->
+<!-- source: https://docs.cartesi.io/cartesi-machine/target/architecture/ -->
 
 ---
 title: System architecture
@@ -4941,7 +4941,7 @@ When the shell returns, `/sbin/init` unmount all file-systems and gracefully hal
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-machine/target/linux/ -->
+<!-- source: https://docs.cartesi.io/cartesi-machine/target/linux/ -->
 
 ---
 title: Linux environment
@@ -5609,7 +5609,7 @@ Then, the `/dev/rollup` device issues an yield _manual_ command to the `/dev/yie
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/ -->
 
 ---
 id: overview
@@ -5680,7 +5680,7 @@ Finally, in this example, no errors are treated; thus, we end the cycle acceptin
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/api/graphql/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/api/graphql/ -->
 
 ---
 id: schema
@@ -5704,7 +5704,7 @@ Use the docs in the sidebar to find out how to use the schema:
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/core-concepts/architecture/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/core-concepts/architecture/ -->
 
 ---
 id: architecture
@@ -5871,7 +5871,7 @@ Similar to how a consensus algorithm is crucial for achieving agreement on a sin
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/core-concepts/cartesi-machine/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/core-concepts/cartesi-machine/ -->
 
 ---
 id: cartesi-machine
@@ -5901,7 +5901,7 @@ The Cartesi Machine is a state machine that remains idle until a new request ari
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/core-concepts/mainnet-considerations/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/core-concepts/mainnet-considerations/ -->
 
 ---
 id: mainnet-considerations
@@ -5942,7 +5942,7 @@ Like Ethereum, Cartesi Rollups are permissionless—anybody can deploy any smart
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/core-concepts/optimistic-rollups/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/core-concepts/optimistic-rollups/ -->
 
 ---
 id: optimistic-rollups
@@ -6015,7 +6015,7 @@ Cartesi's architecture specializes in app-specific rollups(appchains). Each dApp
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/deployment/introduction/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/deployment/introduction/ -->
 
 ---
 id: introduction
@@ -6073,7 +6073,7 @@ The table below shows the list of all [networks that are currently supported](ht
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/deployment/self-hosted/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/deployment/self-hosted/ -->
 
 ---
 id: self-hosted
@@ -6247,7 +6247,7 @@ If deploying to Fly.io from macOS with Apple Silicon, create a Docker image for 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/development/asset-handling/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/development/asset-handling/ -->
 
 ---
 id: asset-handling
@@ -6321,7 +6321,7 @@ Here are the function signatures used by vouchers to withdraw the different type
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/development/building-the-application/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/development/building-the-application/ -->
 
 ---
 id: building-the-application
@@ -6379,7 +6379,7 @@ You can create a `.cartesi.env` in the project's root and override any variable 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/development/cli-commands/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/development/cli-commands/ -->
 
 ---
 id: cli-commands
@@ -6538,7 +6538,7 @@ cartesi shell [IMAGE] [--run-as-root]
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/development/creating-application/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/development/creating-application/ -->
 
 ---
 id: creating-application
@@ -6578,7 +6578,7 @@ For Go applications on Cartesi, we recommend using [Rollmelette](https://github.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/development/installation/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/development/installation/ -->
 
 ---
 id: installation
@@ -6674,7 +6674,7 @@ $ cartesi doctor
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/development/migration/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/development/migration/ -->
 
 ---
 id: migration
@@ -6789,7 +6789,7 @@ When the Cartesi Rollups Node restarts, it processes all existing inputs, recalc
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/development/retrieve-outputs/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/development/retrieve-outputs/ -->
 
 ---
 id: retrieve-outputs
@@ -7276,7 +7276,7 @@ Unlike Vouchers and Notices, reports are stateless and need attached proof.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/development/running-the-application/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/development/running-the-application/ -->
 
 ---
 id: running-the-application
@@ -7356,7 +7356,7 @@ When you run your application with `cartesi run` , there is a local instance of 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/development/send-requests/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/development/send-requests/ -->
 
 ---
 id: send-requests
@@ -7594,7 +7594,7 @@ for (let i in result.reports) {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/external-resources/community-tools/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/external-resources/community-tools/ -->
 
 ---
 id: community-tools
@@ -7776,7 +7776,7 @@ CartDevKit is an all-in-one package for building on Cartesi.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/external-resources/integration-guides/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/external-resources/integration-guides/ -->
 
 ---
 id: integration-guides
@@ -7843,7 +7843,7 @@ XMTP is an open protocol, network, and standards for secure, private web3 messag
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/quickstart/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/quickstart/ -->
 
 ---
 id: quickstart
@@ -7983,7 +7983,7 @@ Deployment with a third-party service provider is under development and will be 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/ -->
 
 ---
 id: http-api
@@ -8036,7 +8036,7 @@ The figure below details some of the main use cases for these interactions:
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/backend/introduction/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/backend/introduction/ -->
 
 ---
 id: introduction
@@ -8193,7 +8193,7 @@ The direct output types for **Advance** requests are [vouchers](./vouchers.md), 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/backend/notices/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/backend/notices/ -->
 
 ---
 id: notices
@@ -8280,7 +8280,7 @@ Frontend clients can query notices using a GraphQL API exposed by the Cartesi No
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/backend/reports/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/backend/reports/ -->
 
 ---
 id: reports
@@ -8369,7 +8369,7 @@ Frontend clients can query reports using a GraphQL API exposed by the Cartesi No
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/backend/vouchers/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/backend/vouchers/ -->
 
 ---
 id: vouchers
@@ -8409,7 +8409,7 @@ You can manually set the epoch length to facilitate quicker asset deposits and w
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/directives/deprecated/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/directives/deprecated/ -->
 
 ---
 id: deprecated
@@ -8435,7 +8435,7 @@ Explains why this element was deprecated, usually also including a suggestion fo
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/directives/include/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/directives/include/ -->
 
 ---
 id: include
@@ -8461,7 +8461,7 @@ Included when true.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/directives/skip/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/directives/skip/ -->
 
 ---
 id: skip
@@ -8487,7 +8487,7 @@ Skipped when true.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/directives/specified-by/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/directives/specified-by/ -->
 
 ---
 id: specified-by
@@ -8513,7 +8513,7 @@ The URL that specifies the behavior of this scalar.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/inputs/input-filter/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/inputs/input-filter/ -->
 
 ---
 id: input-filter
@@ -8541,7 +8541,7 @@ input InputFilter {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/objects/completion-status/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/objects/completion-status/ -->
 
 ---
 id: completion-status
@@ -8579,7 +8579,7 @@ enum CompletionStatus {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/objects/input-connection/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/objects/input-connection/ -->
 
 ---
 id: input-connection
@@ -8606,7 +8606,7 @@ type InputConnection {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/objects/input-edge/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/objects/input-edge/ -->
 
 ---
 id: input-edge
@@ -8634,7 +8634,7 @@ type InputEdge {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/objects/input/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/objects/input/ -->
 
 ---
 id: input
@@ -8675,7 +8675,7 @@ type Input {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/objects/notice-connection/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/objects/notice-connection/ -->
 
 ---
 id: notice-connection
@@ -8702,7 +8702,7 @@ type NoticeConnection {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/objects/notice-edge/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/objects/notice-edge/ -->
 
 ---
 id: notice-edge
@@ -8729,7 +8729,7 @@ type NoticeEdge {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/objects/notice/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/objects/notice/ -->
 
 ---
 id: notice
@@ -8761,7 +8761,7 @@ type Notice {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/objects/output-validity-proof/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/objects/output-validity-proof/ -->
 
 ---
 id: output-validity-proof
@@ -8801,7 +8801,7 @@ type OutputValidityProof {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/objects/page-info/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/objects/page-info/ -->
 
 ---
 id: page-info
@@ -8833,7 +8833,7 @@ type PageInfo {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/objects/proof/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/objects/proof/ -->
 
 ---
 id: proof
@@ -8860,7 +8860,7 @@ type Proof {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/objects/report-connection/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/objects/report-connection/ -->
 
 ---
 id: report-connection
@@ -8888,7 +8888,7 @@ type ReportConnection {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/objects/report-edge/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/objects/report-edge/ -->
 
 ---
 id: report-edge
@@ -8917,7 +8917,7 @@ type ReportEdge {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/objects/report/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/objects/report/ -->
 
 ---
 id: report
@@ -8947,7 +8947,7 @@ type Report {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/objects/voucher-connection/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/objects/voucher-connection/ -->
 
 ---
 id: voucher-connection
@@ -8975,7 +8975,7 @@ type VoucherConnection {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/objects/voucher-edge/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/objects/voucher-edge/ -->
 
 ---
 id: voucher-edge
@@ -9003,7 +9003,7 @@ type VoucherEdge {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/objects/voucher/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/objects/voucher/ -->
 
 ---
 id: voucher
@@ -9037,7 +9037,7 @@ type Voucher {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/overview/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/overview/ -->
 
 ---
 id: overview
@@ -9130,7 +9130,7 @@ You can use the GraphQL Playground, an interactive in-browser IDE, to test and e
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/queries/inputs/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/queries/inputs/ -->
 
 ---
 id: inputs
@@ -9386,7 +9386,7 @@ query getInputResult($inputIndex: Int!) {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/queries/notices/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/queries/notices/ -->
 
 ---
 id: notices
@@ -9576,7 +9576,7 @@ query {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/queries/reports/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/queries/reports/ -->
 
 ---
 id: reports
@@ -9794,7 +9794,7 @@ query reportsByInput($inputIndex: Int!) {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/queries/vouchers/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/queries/vouchers/ -->
 
 ---
 id: vouchers
@@ -10005,7 +10005,7 @@ query vouchersByInput($inputIndex: Int!, $first: Int, $after: String) {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/scalars/big-int/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/scalars/big-int/ -->
 
 ---
 id: big-int
@@ -10027,7 +10027,7 @@ Example: `1234567890123456789012345678901234567890`.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/scalars/boolean/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/scalars/boolean/ -->
 
 ---
 id: boolean
@@ -10044,7 +10044,7 @@ scalar Boolean
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/scalars/date-time/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/scalars/date-time/ -->
 
 ---
 id: date-time
@@ -10065,7 +10065,7 @@ Example: `1723746395` (represents August 15, 2024, 00:59:55 UTC)
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/scalars/int/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/scalars/int/ -->
 
 ---
 id: int
@@ -10086,7 +10086,7 @@ Examples: `42`, `17`, `0`.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/graphql/scalars/string/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/graphql/scalars/string/ -->
 
 ---
 id: string
@@ -10106,7 +10106,7 @@ Examples: `"Hello, World!"`, `"d290f1ee-6c54-4b01-90e6-d701748f0851"`.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/inspect/inspect-state-http-api-for-cartesi-rollups/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/inspect/inspect-state-http-api-for-cartesi-rollups/ -->
 
 ---
 id: inspect-state-http-api-for-cartesi-rollups
@@ -10158,7 +10158,7 @@ API that allows the dApp frontend to make inspect-state requests to the dApp bac
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/inspect/inspect/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/inspect/inspect/ -->
 
 ---
 id: inspect
@@ -10243,7 +10243,7 @@ Notice that this method is synchronous, so it is not advised to perform resource
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/json-rpc/application-factory/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/json-rpc/application-factory/ -->
 
 ---
 id: application-factory
@@ -10328,7 +10328,7 @@ Calculates the address of a potential new Application contract based on input pa
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/json-rpc/application/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/json-rpc/application/ -->
 
 ---
 id: application
@@ -10584,7 +10584,7 @@ struct OutputValidityProof {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/json-rpc/input-box/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/json-rpc/input-box/ -->
 
 ---
 id: input-box
@@ -10689,7 +10689,7 @@ inputs in the dApp's input box. See the `getNumberOfInputs` function._
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/json-rpc/overview/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/json-rpc/overview/ -->
 
 ---
 id: overview
@@ -10723,7 +10723,7 @@ There are two ways in which clients can interact with Ethereum-compatible nodes 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/json-rpc/portals/ERC1155BatchPortal/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/json-rpc/portals/ERC1155BatchPortal/ -->
 
 ---
 resources:
@@ -10761,7 +10761,7 @@ _Please make sure `_tokenIds` and `_values` have the same length._
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/json-rpc/portals/ERC1155SinglePortal/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/json-rpc/portals/ERC1155SinglePortal/ -->
 
 ---
 resources:
@@ -10796,7 +10796,7 @@ beforehand, by calling the `setApprovalForAll` function in the token contract.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/json-rpc/portals/ERC20Portal/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/json-rpc/portals/ERC20Portal/ -->
 
 ---
 resources:
@@ -10831,7 +10831,7 @@ token contract.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/json-rpc/portals/ERC721Portal/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/json-rpc/portals/ERC721Portal/ -->
 
 ---
 resources:
@@ -10867,7 +10867,7 @@ token contract.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/json-rpc/portals/EtherPortal/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/json-rpc/portals/EtherPortal/ -->
 
 ---
 resources:
@@ -10898,7 +10898,7 @@ All the value sent through this function is forwarded to the dApp.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/json-rpc/relays/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/json-rpc/relays/ -->
 
 ---
 id: relays
@@ -10927,7 +10927,7 @@ Add an input to a dApp's input box with its address.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/rollup/add-notice/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/rollup/add-notice/ -->
 
 ---
 id: add-notice
@@ -11006,7 +11006,7 @@ In other words, the index counting restarts at every request.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/rollup/add-report/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/rollup/add-report/ -->
 
 ---
 id: add-report
@@ -11082,7 +11082,7 @@ Between calls to the finish method, the report method can be called any number o
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/rollup/add-voucher/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/rollup/add-voucher/ -->
 
 ---
 id: add-voucher
@@ -11161,7 +11161,7 @@ In other words, the index counting restarts at every request.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/rollup/cartesi-rollup-http-api/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/rollup/cartesi-rollup-http-api/ -->
 
 ---
 id: cartesi-rollup-http-api
@@ -11272,7 +11272,7 @@ It is up to the dApp developer to re-launch the dApp.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/rollup/finish/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/rollup/finish/ -->
 
 ---
 id: finish
@@ -11365,7 +11365,7 @@ When the Rollup HTTP Server returns 202, the dApp backend should retry the call 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/rollups-apis/rollup/register-exception/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/rollups-apis/rollup/register-exception/ -->
 
 ---
 id: register-exception
@@ -11446,7 +11446,7 @@ In both cases, the input will be skipped with the reason EXCEPTION and the excep
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/tutorials/calculator/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/tutorials/calculator/ -->
 
 ---
 id: calculator
@@ -11790,7 +11790,7 @@ Congratulations, you have successfully built a dApp on Cartesi Rollups!
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/tutorials/cli-account-abstraction-feauture/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/tutorials/cli-account-abstraction-feauture/ -->
 
 ---
 id: cli-account-abstraction-feauture
@@ -12232,7 +12232,7 @@ We’ve been able to build our first gasless transaction supporting dApp on Cart
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/tutorials/counter/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/tutorials/counter/ -->
 
 ---
 id: counter
@@ -12471,7 +12471,7 @@ For a more detailed version of this code, you can check the `counter` folder for
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/tutorials/erc-20-token-wallet/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/tutorials/erc-20-token-wallet/ -->
 
 ---
 id: erc-20-token-wallet
@@ -12933,7 +12933,7 @@ Use the `cartesi send generic` command and follow the prompts. Here are sample p
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/tutorials/erc-721-token-wallet/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/tutorials/erc-721-token-wallet/ -->
 
 ---
 id: erc-721-token-wallet
@@ -13386,7 +13386,7 @@ Use the `cartesi send generic` command and follow the prompts. Here are sample p
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/tutorials/ether-wallet/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/tutorials/ether-wallet/ -->
 
 ---
 id: ether-wallet
@@ -13945,7 +13945,7 @@ You can execute your vouchers via the explorer, which completes the withdrawal p
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/tutorials/marketplace/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/tutorials/marketplace/ -->
 
 ---
 id: marketplace
@@ -14405,7 +14405,7 @@ For a more detailed version of this code, you can check the `marketplace` folder
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/tutorials/react-frontend-application/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/tutorials/react-frontend-application/ -->
 
 ---
 id: react-frontend-application
@@ -15857,7 +15857,7 @@ At this stage, you can now interact with the Cartesi backend using the frontend 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/tutorials/snippets/counter-js/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/tutorials/snippets/counter-js/ -->
 
 ```javascript
 const rollup_server = process.env.ROLLUP_HTTP_SERVER_URL;
@@ -15926,7 +15926,7 @@ var finish = { status: "accept" };
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/tutorials/snippets/counter-py/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/tutorials/snippets/counter-py/ -->
 
 ```python
 from os import environ
@@ -15988,7 +15988,7 @@ while True:
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/tutorials/snippets/counter-rs/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/tutorials/snippets/counter-rs/ -->
 
 ```rust
 use json::{object, JsonValue};
@@ -16092,7 +16092,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/tutorials/snippets/marketplace-js/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/tutorials/snippets/marketplace-js/ -->
 
 ```javascript
 import { encodeFunctionData, getAddress, toHex, zeroHash } from "viem";
@@ -16520,7 +16520,7 @@ var finish = { status: "accept" };
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/tutorials/snippets/marketplace-py/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/tutorials/snippets/marketplace-py/ -->
 
 ```python
 from os import environ
@@ -16931,7 +16931,7 @@ while True:
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/1.5/tutorials/snippets/marketplace-rs/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/1.5/tutorials/snippets/marketplace-rs/ -->
 
 ```rust
 use json::{object, JsonValue};
@@ -17414,7 +17414,7 @@ async fn emit_notice( payload: String) {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/ -->
 
 ---
 id: overview
@@ -17482,7 +17482,7 @@ Finally, in this example, no errors are treated; thus, we end the cycle acceptin
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/ -->
 
 ---
 id: http-api
@@ -17534,7 +17534,7 @@ The figure below illustrates the main use cases for these interactions:
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/backend/exception/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/backend/exception/ -->
 
 ---
 id: exception
@@ -17764,7 +17764,7 @@ std::string handle_advance(httplib::Client &cli, picojson::value data)
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/backend/finish/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/backend/finish/ -->
 
 ---
 id: finish
@@ -18103,7 +18103,7 @@ int main(int argc, char **argv)
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/backend/introduction/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/backend/introduction/ -->
 
 ---
 id: introduction
@@ -18209,7 +18209,7 @@ The direct output types for **Advance** requests are [vouchers](./vouchers.md), 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/backend/notices/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/backend/notices/ -->
 
 ---
 id: notices
@@ -18404,7 +18404,7 @@ Frontend clients can query notices using a JSON RPC API exposed by Cartesi Nodes
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/backend/reports/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/backend/reports/ -->
 
 ---
 id: reports
@@ -18600,7 +18600,7 @@ Frontend clients can query reports using a GraphQL API exposed by the Cartesi No
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/backend/vouchers/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/backend/vouchers/ -->
 
 ---
 id: vouchers
@@ -19153,7 +19153,7 @@ You can manually set the epoch length to facilitate quicker asset deposits and w
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/application-factory/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/application-factory/ -->
 
 ---
 id: application-factory
@@ -19287,7 +19287,7 @@ A new Application contract was deployed.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/application/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/application/ -->
 
 ---
 id: application
@@ -19549,7 +19549,7 @@ The outputs Merkle root validator was changed.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/consensus/abstract-consensus/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/consensus/abstract-consensus/ -->
 
 ---
 id: abstract-consensus
@@ -19620,7 +19620,7 @@ Check if the contract supports a specific interface.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/consensus/authority/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/consensus/authority/ -->
 
 ---
 id: authority
@@ -19712,7 +19712,7 @@ Check if the contract supports a specific interface.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/consensus/authority/authority-factory/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/consensus/authority/authority-factory/ -->
 
 ---
 id: authority-factory
@@ -19797,7 +19797,7 @@ Calculate the address of an authority to be deployed deterministically.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/consensus/authority/iauthority-factory/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/consensus/authority/iauthority-factory/ -->
 
 ---
 id: iauthority-factory
@@ -19898,7 +19898,7 @@ Calculate the address of an authority to be deployed deterministically.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/consensus/authority/iauthority/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/consensus/authority/iauthority/ -->
 
 ---
 id: iauthority
@@ -19922,7 +19922,7 @@ A consensus contract controlled by a single address, the owner. This interface c
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/consensus/iconsensus/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/consensus/iconsensus/ -->
 
 ---
 id: iconsensus
@@ -20092,7 +20092,7 @@ A claim for that application and epoch was already submitted by the validator.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/consensus/ioutputs-merkle-root-validator/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/consensus/ioutputs-merkle-root-validator/ -->
 
 ---
 id: ioutputs-merkle-root-validator
@@ -20131,7 +20131,7 @@ Check whether an outputs Merkle root is valid.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/consensus/overview/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/consensus/overview/ -->
 
 ---
 id: overview
@@ -20173,7 +20173,7 @@ Once a claim is accepted, the outputs Merkle root becomes valid and can be used 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/consensus/quorum/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/consensus/quorum/ -->
 
 ---
 id: quorum
@@ -20387,7 +20387,7 @@ Check if the contract supports a specific interface.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/consensus/quorum/iquorum-factory/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/consensus/quorum/iquorum-factory/ -->
 
 ---
 id: iquorum-factory
@@ -20488,7 +20488,7 @@ Calculate the address of a quorum to be deployed deterministically.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/consensus/quorum/iquorum/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/consensus/quorum/iquorum/ -->
 
 ---
 id: iquorum
@@ -20633,7 +20633,7 @@ Check whether a validator is in favor of a claim.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/consensus/quorum/quorum-factory/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/consensus/quorum/quorum-factory/ -->
 
 ---
 id: quorum-factory
@@ -20718,7 +20718,7 @@ Calculate the address of a quorum to be deployed deterministically.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/input-box/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/input-box/ -->
 
 ---
 id: input-box
@@ -20856,7 +20856,7 @@ Emitted when an input is added to an application's input box.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/overview/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/overview/ -->
 
 ---
 id: overview
@@ -20892,7 +20892,7 @@ Clients can interact with Ethereum-compatible nodes using the JSON-RPC API in tw
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/portals/ERC1155BatchPortal/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/portals/ERC1155BatchPortal/ -->
 
 ---
 resources:
@@ -20930,7 +20930,7 @@ _Please make sure `tokenIds` and `values` have the same length._
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/portals/ERC1155SinglePortal/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/portals/ERC1155SinglePortal/ -->
 
 ---
 resources:
@@ -20966,7 +20966,7 @@ beforehand, by calling the `setApprovalForAll` function in the token contract.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/portals/ERC20Portal/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/portals/ERC20Portal/ -->
 
 ---
 resources:
@@ -21001,7 +21001,7 @@ token contract.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/portals/ERC721Portal/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/portals/ERC721Portal/ -->
 
 ---
 resources:
@@ -21037,7 +21037,7 @@ token contract.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/contracts/portals/EtherPortal/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/contracts/portals/EtherPortal/ -->
 
 ---
 resources:
@@ -21068,7 +21068,7 @@ All the value sent through this function is forwarded to the dApp.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/inspect/inspect-state-http-api-for-cartesi-rollups/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/inspect/inspect-state-http-api-for-cartesi-rollups/ -->
 
 ---
 id: inspect-state-http-api-for-cartesi-rollups
@@ -21120,7 +21120,7 @@ API that allows the dApp frontend to make inspect-state requests to the dApp bac
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/inspect/inspect/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/inspect/inspect/ -->
 
 ---
 id: inspect
@@ -21205,7 +21205,7 @@ Notice that this method is synchronous, so it is not advised to perform resource
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/jsonrpc/methods/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/jsonrpc/methods/ -->
 
 ---
 id: methods
@@ -21339,7 +21339,7 @@ No parameters required.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/jsonrpc/methods/applications/applications-get/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/jsonrpc/methods/applications/applications-get/ -->
 
 ---
 id: applications-get
@@ -21465,7 +21465,7 @@ The `cartesi_getApplication` method retrieves detailed information about a speci
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/jsonrpc/methods/applications/applications-list/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/jsonrpc/methods/applications/applications-list/ -->
 
 ---
 id: applications-list
@@ -21609,7 +21609,7 @@ The `cartesi_listApplications` method returns a paginated list of applications r
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/jsonrpc/methods/epochs/epochs-get/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/jsonrpc/methods/epochs/epochs-get/ -->
 
 ---
 id: epochs-get
@@ -21688,7 +21688,7 @@ The `cartesi_getEpoch` method retrieves detailed information about a specific ep
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/jsonrpc/methods/epochs/epochs-list/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/jsonrpc/methods/epochs/epochs-list/ -->
 
 ---
 id: epochs-list
@@ -21828,7 +21828,7 @@ The `cartesi_listEpochs` method returns a paginated list of epochs for a specifi
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/jsonrpc/methods/epochs/jsonrpc-epochs-last-accepted/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/jsonrpc/methods/epochs/jsonrpc-epochs-last-accepted/ -->
 
 ---
 id: jsonrpc-epochs-last-accepted
@@ -21886,7 +21886,7 @@ The `cartesi_getLastAcceptedEpochIndex` method retrieves the latest accepted epo
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/jsonrpc/methods/inputs/inputs-get/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/jsonrpc/methods/inputs/inputs-get/ -->
 
 ---
 id: inputs-get
@@ -21991,7 +21991,7 @@ The `cartesi_getInput` method retrieves detailed information about a specific in
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/jsonrpc/methods/inputs/inputs-list/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/jsonrpc/methods/inputs/inputs-list/ -->
 
 ---
 id: inputs-list
@@ -22103,7 +22103,7 @@ The `cartesi_listInputs` method returns a paginated list of inputs for a specifi
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/jsonrpc/methods/inputs/jsonrpc-inputs-processed-count/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/jsonrpc/methods/inputs/jsonrpc-inputs-processed-count/ -->
 
 ---
 id: jsonrpc-inputs-processed-count
@@ -22161,7 +22161,7 @@ The `cartesi_getProcessedInputCount` method returns the total number of inputs t
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/jsonrpc/methods/node/node-chain-id/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/jsonrpc/methods/node/node-chain-id/ -->
 
 ---
 id: node-chain-id
@@ -22213,7 +22213,7 @@ No parameters required.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/jsonrpc/methods/node/node-version/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/jsonrpc/methods/node/node-version/ -->
 
 ---
 id: node-version
@@ -22265,7 +22265,7 @@ No parameters required.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/jsonrpc/methods/outputs/outputs-get/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/jsonrpc/methods/outputs/outputs-get/ -->
 
 ---
 id: outputs-get
@@ -22359,7 +22359,7 @@ The API supports three types of outputs, which can be identified by the `type` f
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/jsonrpc/methods/outputs/outputs-list/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/jsonrpc/methods/outputs/outputs-list/ -->
 
 ---
 id: outputs-list
@@ -22467,7 +22467,7 @@ The `cartesi_listOutputs` method returns a paginated list of outputs for a speci
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/jsonrpc/methods/reports/reports-get/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/jsonrpc/methods/reports/reports-get/ -->
 
 ---
 id: reports-get
@@ -22540,7 +22540,7 @@ The `cartesi_getReport` method retrieves detailed information about a specific r
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/jsonrpc/methods/reports/reports-list/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/jsonrpc/methods/reports/reports-list/ -->
 
 ---
 id: reports-list
@@ -22633,7 +22633,7 @@ The `cartesi_listReports` method returns a paginated list of reports for a speci
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/jsonrpc/overview/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/jsonrpc/overview/ -->
 
 ---
 id: overview
@@ -22786,7 +22786,7 @@ For more examples and detailed information about each method, see the [Methods](
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/jsonrpc/types/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/jsonrpc/types/ -->
 
 ---
 id: types
@@ -23262,7 +23262,7 @@ interface NodeVersionResult {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/rollup/add-notice/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/rollup/add-notice/ -->
 
 ---
 id: add-notice
@@ -23341,7 +23341,7 @@ In other words, the index counting restarts at every request.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/rollup/add-report/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/rollup/add-report/ -->
 
 ---
 id: add-report
@@ -23417,7 +23417,7 @@ Between calls to the finish method, the report method can be called any number o
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/rollup/add-voucher/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/rollup/add-voucher/ -->
 
 ---
 id: add-voucher
@@ -23496,7 +23496,7 @@ In other words, the index counting restarts at every request.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/rollup/cartesi-rollup-http-api/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/rollup/cartesi-rollup-http-api/ -->
 
 ---
 id: cartesi-rollup-http-api
@@ -23607,7 +23607,7 @@ It is up to the dApp developer to re-launch the dApp.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/rollup/finish/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/rollup/finish/ -->
 
 ---
 id: finish
@@ -23700,7 +23700,7 @@ When the Rollup HTTP Server returns 202, the dApp backend should retry the call 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/api-reference/rollup/register-exception/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/rollup/register-exception/ -->
 
 ---
 id: register-exception
@@ -23781,7 +23781,7 @@ In both cases, the input will be skipped with the reason EXCEPTION and the excep
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/build-with-ai/mcp-server/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/build-with-ai/mcp-server/ -->
 
 ---
 title: MCP Server
@@ -23948,7 +23948,7 @@ The server exposes developer-facing tools in three categories:
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/build-with-ai/overview/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/build-with-ai/overview/ -->
 
 ---
 title: Overview
@@ -24140,7 +24140,7 @@ AI-assisted development is powerful, but it is not a substitute for good enginee
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/build-with-ai/prompting/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/build-with-ai/prompting/ -->
 
 ---
 title: Prompting
@@ -24398,7 +24398,7 @@ Output:
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/build-with-ai/skills/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/build-with-ai/skills/ -->
 
 ---
 title: Skills
@@ -24468,7 +24468,7 @@ Cartesi Skills v0.1.0 is an early release for testing and feedback. Be cautious 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/core-concepts/cartesi-machine/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/core-concepts/cartesi-machine/ -->
 
 ---
 id: cartesi-machine
@@ -24498,7 +24498,7 @@ The Cartesi Machine is a state machine that remains idle until a new request ari
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/deployment/introduction/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/deployment/introduction/ -->
 
 ---
 id: introduction
@@ -24557,7 +24557,7 @@ The table below shows the list of all [networks that are currently supported](ht
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/deployment/self-hosted/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/deployment/self-hosted/ -->
 
 ---
 id: self-hosted
@@ -24701,7 +24701,7 @@ Once running, your local Cartesi Rollups Node will be accessible through the sta
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/deployment/snapshot/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/deployment/snapshot/ -->
 
 ---
 id: snapshot
@@ -24890,7 +24890,7 @@ The release job downloads the build artifacts, prepares the release assets, and 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/Advanced-configuration/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/Advanced-configuration/ -->
 
 ---
 id: Advanced-configuration
@@ -25264,7 +25264,7 @@ The reference drive contains a pre built SquashFS image with static reference da
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/asset-handling/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/asset-handling/ -->
 
 ---
 id: asset-handling
@@ -25484,7 +25484,7 @@ Here are the function signatures used by vouchers to withdraw the different type
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/building-an-application/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/building-an-application/ -->
 
 ---
 id: building-an-application
@@ -25542,7 +25542,7 @@ You can create a `.cartesi.env` in the project's root and override any variable 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/creating-an-application/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/creating-an-application/ -->
 
 ---
 id: creating-an-application
@@ -25661,7 +25661,7 @@ import ImplementingOutputsCPP from './snippets/implementing_outputs_cpp.md';
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/installation/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/installation/ -->
 
 ---
 id: installation
@@ -25756,7 +25756,7 @@ $ cartesi doctor
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/query-outputs/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/query-outputs/ -->
 
 ---
 id: query-outputs
@@ -26414,7 +26414,7 @@ curl -X POST http://127.0.0.1:6751/rpc \
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/running-an-application/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/running-an-application/ -->
 
 ---
 id: running-an-application
@@ -26508,7 +26508,7 @@ Each of these services runs independently and can be activated or deactivated at
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/send-inputs-and-assets/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/send-inputs-and-assets/ -->
 
 ---
 id: send-inputs-and-assets
@@ -26871,7 +26871,7 @@ The `cartesi deposit` command by default uses the default anvil account, and als
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/asset_decode_erc20_cpp/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/asset_decode_erc20_cpp/ -->
 
 ```cpp
 #include <stdexcept>
@@ -26941,7 +26941,7 @@ Erc20Deposit decode_erc20_deposit(const std::string &payload_hex)
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/asset_decode_erc20_go/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/asset_decode_erc20_go/ -->
 
 ```go
 package main
@@ -26983,7 +26983,7 @@ func DecodeErc20Deposit(payloadHex string) (*Erc20Deposit, error) {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/asset_decode_erc20_js/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/asset_decode_erc20_js/ -->
 
 ```javascript
 function decodeErc20Deposit(payloadHex) {
@@ -27015,7 +27015,7 @@ function decodeErc20Deposit(payloadHex) {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/asset_decode_erc20_py/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/asset_decode_erc20_py/ -->
 
 ```python
 def decode_erc20_deposit(payload_hex):
@@ -27044,7 +27044,7 @@ def decode_erc20_deposit(payload_hex):
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/asset_decode_erc20_rs/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/asset_decode_erc20_rs/ -->
 
 ```rust
 use num_bigint::BigUint;
@@ -27100,7 +27100,7 @@ pub fn decode_erc20_deposit(payload_hex: &str) -> Result<Erc20Deposit, String> {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/asset_withdraw_erc20_cpp/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/asset_withdraw_erc20_cpp/ -->
 
 ```cpp
 #include <iostream>
@@ -27144,7 +27144,7 @@ std::string handle_advance(httplib::Client &cli, picojson::value data)
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/asset_withdraw_erc20_go/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/asset_withdraw_erc20_go/ -->
 
 ```go
 package main
@@ -27187,7 +27187,7 @@ func HandleAdvance(data *rollups.AdvanceResponse) error {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/asset_withdraw_erc20_js/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/asset_withdraw_erc20_js/ -->
 
 ```javascript
 import { encodeFunctionData, erc20Abi, hexToString, zeroHash } from "viem";
@@ -27235,7 +27235,7 @@ const emitVoucher = async (voucher) => {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/asset_withdraw_erc20_py/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/asset_withdraw_erc20_py/ -->
 
 ```python
 import json
@@ -27291,7 +27291,7 @@ def handle_advance(data):
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/asset_withdraw_erc20_rs/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/asset_withdraw_erc20_rs/ -->
 
 ```rust
 use json::{object, JsonValue};
@@ -27390,7 +27390,7 @@ pub async fn handle_advance(
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/asset_withdraw_ether_cpp/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/asset_withdraw_ether_cpp/ -->
 
 ```cpp
 #include <iostream>
@@ -27432,7 +27432,7 @@ std::string handle_advance(httplib::Client &cli, picojson::value data)
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/asset_withdraw_ether_go/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/asset_withdraw_ether_go/ -->
 
 ```go
 package main
@@ -27493,7 +27493,7 @@ func HandleAdvance(data *rollups.AdvanceResponse) error {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/asset_withdraw_ether_js/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/asset_withdraw_ether_js/ -->
 
 ```javascript
 import { hexToString, numberToHex, parseEther, zeroHash } from "viem";
@@ -27534,7 +27534,7 @@ const emitVoucher = async (voucher) => {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/asset_withdraw_ether_py/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/asset_withdraw_ether_py/ -->
 
 ```python
 import json
@@ -27595,7 +27595,7 @@ def handle_advance(data):
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/asset_withdraw_ether_rs/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/asset_withdraw_ether_rs/ -->
 
 ```rust 
 use json::{object, JsonValue};
@@ -27680,7 +27680,7 @@ pub async fn handle_advance(
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/implementing_outputs_cpp/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/implementing_outputs_cpp/ -->
 
 ```cpp
 #include <stdio.h>
@@ -27808,7 +27808,7 @@ int main(int argc, char **argv)
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/implementing_outputs_go/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/implementing_outputs_go/ -->
 
 ```go
 package main
@@ -27963,7 +27963,7 @@ func main() {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/implementing_outputs_js/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/implementing_outputs_js/ -->
 
 ```javascript
 import { stringToHex, encodeFunctionData, erc20Abi, hexToString, zeroHash } from "viem";
@@ -28080,7 +28080,7 @@ var finish = { status: "accept" };
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/implementing_outputs_py/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/implementing_outputs_py/ -->
 
 ```python
 from os import environ
@@ -28214,7 +28214,7 @@ while True:
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/implementing_outputs_rs/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/implementing_outputs_rs/ -->
 
 ```rust 
 use json::{object, JsonValue};
@@ -28430,7 +28430,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/request_handling_cpp/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/request_handling_cpp/ -->
 
 ```cpp
 #include <stdio.h>
@@ -28488,7 +28488,7 @@ int main(int argc, char **argv)
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/request_handling_go/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/request_handling_go/ -->
 
 ```go
 package main
@@ -28585,7 +28585,7 @@ func main() {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/request_handling_js/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/request_handling_js/ -->
 
 ```javascript
 const rollup_server = process.env.ROLLUP_HTTP_SERVER_URL;
@@ -28633,7 +28633,7 @@ var finish = { status: "accept" };
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/request_handling_py/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/request_handling_py/ -->
 
 ```python
 from os import environ
@@ -28677,7 +28677,7 @@ while True:
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/request_handling_rs/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/request_handling_rs/ -->
 
 ```rust
 use json::{object, JsonValue};
@@ -28751,7 +28751,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/sending_notice_cpp/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/sending_notice_cpp/ -->
 
 ```cpp
 #include <sstream>
@@ -28818,7 +28818,7 @@ std::string handle_advance(httplib::Client &cli, picojson::value data)
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/sending_notice_go/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/sending_notice_go/ -->
 
 ```go
 package main
@@ -28866,7 +28866,7 @@ func HandleAdvance(data *rollups.AdvanceResponse) error {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/sending_report_cpp/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/sending_report_cpp/ -->
 
 ```cpp
 #include <iostream>
@@ -28907,7 +28907,7 @@ std::string handle_advance(httplib::Client &cli, picojson::value data)
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/development/snippets/sending_report_go/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/development/snippets/sending_report_go/ -->
 
 ```go
 package main
@@ -28937,7 +28937,7 @@ func HandleAdvance(data *rollups.AdvanceResponse) error {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/getting-started/architecture/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/getting-started/architecture/ -->
 
 ---
 id: architecture
@@ -29103,7 +29103,7 @@ The validation process ensures the integrity of the off-chain computations:
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/getting-started/concepts/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/getting-started/concepts/ -->
 
 ---
 id: concepts
@@ -29171,7 +29171,7 @@ Similar to how a consensus algorithm is crucial for achieving agreement on a sin
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/getting-started/Installation/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/getting-started/Installation/ -->
 
 ---
 id: Installation
@@ -29182,7 +29182,7 @@ TODO: This is blank
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/resources/community-tools/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/resources/community-tools/ -->
 
 ---
 id: community-tools
@@ -29369,7 +29369,7 @@ CartDevKit is an all-in-one package for building on Cartesi.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/resources/integration-guides/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/resources/integration-guides/ -->
 
 ---
 id: integration-guides
@@ -29436,7 +29436,7 @@ XMTP is an open protocol, network, and standards for secure, private web3 messag
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/resources/mainnet-considerations/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/resources/mainnet-considerations/ -->
 
 ---
 id: mainnet-considerations
@@ -29477,7 +29477,7 @@ Like Ethereum, Cartesi Rollups are permissionless—anybody can deploy any smart
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/resources/migration-guide/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/resources/migration-guide/ -->
 
 ---
 id: migration-guide
@@ -29578,7 +29578,7 @@ When the Cartesi Rollups Node restarts, it processes all existing inputs, recalc
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/calculator/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/calculator/ -->
 
 ---
 id: calculator
@@ -29934,7 +29934,7 @@ Congratulations, you have successfully built a dApp on Cartesi Rollups!
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/cli-account-abstraction-feature/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/cli-account-abstraction-feature/ -->
 
 ---
 id: cli-account-abstraction-feature
@@ -30351,7 +30351,7 @@ Access a complete codebase with the code blocks from the tutorial [here.](https:
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/counter/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/counter/ -->
 
 ---
 id: counter
@@ -30639,7 +30639,7 @@ For a more detailed version of this code, you can check the `counter` folder for
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/erc-20-token-wallet/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/erc-20-token-wallet/ -->
 
 ---
 id: erc-20-token-wallet
@@ -31214,7 +31214,7 @@ Use the `cartesi send` command then follow the prompts to select `String encodin
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/erc-721-token-wallet/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/erc-721-token-wallet/ -->
 
 ---
 id: erc-721-token-wallet
@@ -31680,7 +31680,7 @@ Use the `cartesi send` command then follow the prompts to select `String encodin
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/ether-wallet/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/ether-wallet/ -->
 
 ---
 id: ether-wallet
@@ -32217,7 +32217,7 @@ You can execute your vouchers via the explorer, which completes the withdrawal p
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/marketplace/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/marketplace/ -->
 
 ---
 id: marketplace
@@ -32709,7 +32709,7 @@ For a more detailed version of this code, you can check the `marketplace` folder
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/react-frontend-application/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/react-frontend-application/ -->
 
 ---
 id: react-frontend-application
@@ -33404,7 +33404,7 @@ export function CartesiApps({ onAppSelect }: CartesiAppsProps) {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/running-applications-on-a-forked-network/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/running-applications-on-a-forked-network/ -->
 
 ---
 id: running-applications-on-a-forked-network
@@ -33725,7 +33725,7 @@ This demonstrates how the Cartesi CLI can be used to replicate real blockchain e
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/snippets/calculator-cpp/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/snippets/calculator-cpp/ -->
 
 ```cpp
 #include <iomanip>
@@ -33866,7 +33866,7 @@ int main(int argc, char **argv)
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/snippets/calculator-go/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/snippets/calculator-go/ -->
 
 ```go
 package main
@@ -33961,7 +33961,7 @@ func main() {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/snippets/calculator-js/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/snippets/calculator-js/ -->
 
 ```javascript
 import { Parser } from "expr-eval";
@@ -34044,7 +34044,7 @@ const finish = { status: "accept" };
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/snippets/calculator-py/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/snippets/calculator-py/ -->
 
 ```python
 from os import environ
@@ -34120,7 +34120,7 @@ while True:
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/snippets/calculator-rs/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/snippets/calculator-rs/ -->
 
 ```rust
 use json::{object, JsonValue};
@@ -34227,7 +34227,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/snippets/counter-cpp/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/snippets/counter-cpp/ -->
 
 ```cpp
 #include <iostream>
@@ -34315,7 +34315,7 @@ int main(int argc, char **argv)
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/snippets/counter-go/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/snippets/counter-go/ -->
 
 ```go
 package main
@@ -34397,7 +34397,7 @@ func main() {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/snippets/counter-js/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/snippets/counter-js/ -->
 
 ```javascript
 const rollup_server = process.env.ROLLUP_HTTP_SERVER_URL;
@@ -34466,7 +34466,7 @@ var finish = { status: "accept" };
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/snippets/counter-py/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/snippets/counter-py/ -->
 
 ```python
 from os import environ
@@ -34528,7 +34528,7 @@ while True:
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/snippets/counter-rs/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/snippets/counter-rs/ -->
 
 ```rust
 use json::{object, JsonValue};
@@ -34632,7 +34632,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/snippets/fork-sepolia-js/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/snippets/fork-sepolia-js/ -->
 
 ```javascript
 const rollup_server = process.env.ROLLUP_HTTP_SERVER_URL;
@@ -34758,7 +34758,7 @@ var finish = { status: "accept" };
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/snippets/fork-sepolia-rs/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/snippets/fork-sepolia-rs/ -->
 
 ```rust
 use json::{object, JsonValue};
@@ -34936,7 +34936,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/snippets/inputRelayer-sol/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/snippets/inputRelayer-sol/ -->
 
 ```rust
 // SPDX-License-Identifier: MIT
@@ -35008,7 +35008,7 @@ contract InputRelayer {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/snippets/marketplace-cpp/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/snippets/marketplace-cpp/ -->
 
 ```cpp
 #include <algorithm>
@@ -35330,7 +35330,7 @@ int main(int argc, char **argv)
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/snippets/marketplace-go/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/snippets/marketplace-go/ -->
 
 ```go
 package main
@@ -35603,7 +35603,7 @@ func main() {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/snippets/marketplace-js/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/snippets/marketplace-js/ -->
 
 ```javascript
 import { encodeFunctionData, toHex, zeroHash } from "viem";
@@ -36034,7 +36034,7 @@ var finish = { status: "accept" };
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/snippets/marketplace-py/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/snippets/marketplace-py/ -->
 
 ```python
 from os import environ
@@ -36422,7 +36422,7 @@ while True:
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/snippets/marketplace-rs/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/snippets/marketplace-rs/ -->
 
 ```rust
 use json::{object, JsonValue};
@@ -36896,7 +36896,7 @@ async fn emit_notice( payload: String) {
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/cartesi-rollups/2.0/tutorials/utilizing-the-cli-test-tokens/ -->
+<!-- source: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/utilizing-the-cli-test-tokens/ -->
 
 ---
 id: utilizing-the-cli-test-tokens
@@ -38575,7 +38575,7 @@ INFO:__main__:Sending finish
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/ -->
+<!-- source: https://docs.cartesi.io/compute/ -->
 
 ---
 id: compute
@@ -38643,7 +38643,7 @@ title: Cartesi Compute
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/api/ -->
+<!-- source: https://docs.cartesi.io/compute/api/ -->
 
 ---
 title: On-chain API
@@ -38662,7 +38662,7 @@ In exceptional cases, the `getResult` function can return error codes, for examp
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/architecture/ -->
+<!-- source: https://docs.cartesi.io/compute/architecture/ -->
 
 ---
 title: Architecture
@@ -38706,7 +38706,7 @@ This gives a complete picture of the software components involved in running a C
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/drives/ -->
+<!-- source: https://docs.cartesi.io/compute/drives/ -->
 
 ---
 title: Drives
@@ -38772,7 +38772,7 @@ The two next sections describe how to overcome each of these limitations.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/how/ -->
+<!-- source: https://docs.cartesi.io/compute/how/ -->
 
 ---
 title: How it works
@@ -38809,7 +38809,7 @@ dApp users are not required to know if their nodes are playing the role of a cla
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/instantiate/ -->
+<!-- source: https://docs.cartesi.io/compute/instantiate/ -->
 
 ---
 title: Instantiate
@@ -38861,7 +38861,7 @@ Namely, the `Drive[] _inputDrives` parameter, which will be detailed in the next
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/integer_drive/ -->
+<!-- source: https://docs.cartesi.io/compute/integer_drive/ -->
 
 ---
 title: Integer Drive
@@ -38869,7 +38869,7 @@ title: Integer Drive
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/logger_drive/ -->
+<!-- source: https://docs.cartesi.io/compute/logger_drive/ -->
 
 ---
 title: Logger drives
@@ -38940,7 +38940,7 @@ On the other hand, in the vast majority of cases in which the parties cooperate,
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/machine-offchain/ -->
+<!-- source: https://docs.cartesi.io/compute/machine-offchain/ -->
 
 ---
 title: Machines off-chain
@@ -38965,7 +38965,7 @@ In this sense, a Cartesi Machine is very similar to a programming language funct
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/machine-onchain/ -->
+<!-- source: https://docs.cartesi.io/compute/machine-onchain/ -->
 
 ---
 title: Machines on-chain
@@ -38996,7 +38996,7 @@ Machines are specified on Cartesi Compute smart contracts as a single hash that 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/off-chain-api/ -->
+<!-- source: https://docs.cartesi.io/compute/off-chain-api/ -->
 
 ---
 title: The off-chain API
@@ -39011,7 +39011,7 @@ In section [...] we will give the full details of this HTTP API, but for now it 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/overview/ -->
+<!-- source: https://docs.cartesi.io/compute/overview/ -->
 
 ---
 title: Overview
@@ -39042,7 +39042,7 @@ The Cartesi Compute SDK abstracts these mechanisms away from the developer, maki
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/provider/ -->
+<!-- source: https://docs.cartesi.io/compute/provider/ -->
 
 ---
 title: Provider drives
@@ -39096,7 +39096,7 @@ The next section lifts this limitation.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/services/ -->
+<!-- source: https://docs.cartesi.io/compute/services/ -->
 
 ---
 title: Platform services
@@ -39115,7 +39115,7 @@ Platform Services can be a great way to publish and distribute your Cartesi Comp
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/supported-networks/ -->
+<!-- source: https://docs.cartesi.io/compute/supported-networks/ -->
 
 ---
 title: Supported networks
@@ -39150,7 +39150,7 @@ Effectively, the API is currently available in the following test networks:
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/timeline/ -->
+<!-- source: https://docs.cartesi.io/compute/timeline/ -->
 
 ---
 title: Execution timeline
@@ -39211,7 +39211,7 @@ High-level sequence diagram explaining the interaction between the client, the S
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/topologies/ -->
+<!-- source: https://docs.cartesi.io/compute/topologies/ -->
 
 ---
 title: Topologies
@@ -39234,7 +39234,7 @@ There are, in fact, different ways a user can relate to a Node. Here are some ex
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/wallet/ -->
+<!-- source: https://docs.cartesi.io/compute/wallet/ -->
 
 ---
 title: Wallets
@@ -39254,7 +39254,7 @@ Moreover, the dApp does not need to know the address of the user's Cartesi Compu
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/compute/workflow/ -->
+<!-- source: https://docs.cartesi.io/compute/workflow/ -->
 
 ---
 title: Putting Things Together
@@ -39303,7 +39303,7 @@ On the client side, Alice and Bob have downloaded the game on their browser. The
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/earn-ctsi/public-pool/ -->
+<!-- source: https://docs.cartesi.io/earn-ctsi/public-pool/ -->
 
 ---
 title: Create a public pool
@@ -39398,7 +39398,7 @@ When the pool is created, the account connected to metamask is assigned as the p
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/earn-ctsi/run-node/ -->
+<!-- source: https://docs.cartesi.io/earn-ctsi/run-node/ -->
 
 ---
 title: Run a private node
@@ -39428,7 +39428,7 @@ All rewards associated with blocks that your node produces are directly distribu
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/earn-ctsi/staking-faq/ -->
+<!-- source: https://docs.cartesi.io/earn-ctsi/staking-faq/ -->
 
 ---
 id: staking-faq
@@ -39673,7 +39673,7 @@ We are sorry to hear that, please head to the [Cartesi Technical Community on Di
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/earn-ctsi/staking/ -->
+<!-- source: https://docs.cartesi.io/earn-ctsi/staking/ -->
 
 ---
 title: How to stake
@@ -39713,7 +39713,7 @@ Whenever you decide, you can unstake a specific amount of your tokens or all of 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/fraud-proofs/ -->
+<!-- source: https://docs.cartesi.io/fraud-proofs/ -->
 
 # Overview
 
@@ -39734,7 +39734,7 @@ This documentation focuses on the PRT implementation of Dave - the leading fraud
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/fraud-proofs/fraud-proof-basics/bonds/ -->
+<!-- source: https://docs.cartesi.io/fraud-proofs/fraud-proof-basics/bonds/ -->
 
 # Bonds
 
@@ -39774,7 +39774,7 @@ This approach preserves the goal of making honest validation effectively costles
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/fraud-proofs/fraud-proof-basics/epochs/ -->
+<!-- source: https://docs.cartesi.io/fraud-proofs/fraud-proof-basics/epochs/ -->
 
 # Epoch Lifecycle
 
@@ -39826,7 +39826,7 @@ The StateManager provides persistent storage for all epoch-related data includin
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/fraud-proofs/fraud-proof-basics/introduction/ -->
+<!-- source: https://docs.cartesi.io/fraud-proofs/fraud-proof-basics/introduction/ -->
 
 # Introduction
 
@@ -39884,7 +39884,7 @@ In the following sections, we will dive deeper into some of these components fro
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/fraud-proofs/fraud-proof-basics/state-transition-function/ -->
+<!-- source: https://docs.cartesi.io/fraud-proofs/fraud-proof-basics/state-transition-function/ -->
 
 # State Transition Function
 
@@ -39999,7 +39999,7 @@ In effect, this combines input processing with the padded execution schedule. A 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/fraud-proofs/honeypot/application-logic/ -->
+<!-- source: https://docs.cartesi.io/fraud-proofs/honeypot/application-logic/ -->
 
 # Application Logic
 
@@ -40074,7 +40074,7 @@ These constants are defined at compile-time and cannot be modified during runtim
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/fraud-proofs/honeypot/introduction/ -->
+<!-- source: https://docs.cartesi.io/fraud-proofs/honeypot/introduction/ -->
 
 # Introduction
 
@@ -40091,7 +40091,7 @@ The application runs inside a Cartesi Machine (RISC-V virtual environment) and i
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/fraud-proofs/honeypot/prt-integration/ -->
+<!-- source: https://docs.cartesi.io/fraud-proofs/honeypot/prt-integration/ -->
 
 # Honeypot with PRT 
 
@@ -40128,7 +40128,7 @@ Under the hood, the Honeypot-PRT node listens to the events emitted by the PRT c
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/fraud-proofs/prt/prt-algorithm/ -->
+<!-- source: https://docs.cartesi.io/fraud-proofs/prt/prt-algorithm/ -->
 
 # PRT Algorithm
 
@@ -40203,7 +40203,7 @@ The following flowchart illustrates the PRT algorithm in a simplified manner:
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/fraud-proofs/prt/prt-architecture/ -->
+<!-- source: https://docs.cartesi.io/fraud-proofs/prt/prt-architecture/ -->
 
 # PRT Architecture
 
@@ -40288,7 +40288,7 @@ The components listed here are part of an evolving implementation of the rollups
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/fraud-proofs/prt/prt-introduction/ -->
+<!-- source: https://docs.cartesi.io/fraud-proofs/prt/prt-introduction/ -->
 
 # Permissionless Refereed Tournament - A Brief Introduction
 
@@ -40326,7 +40326,7 @@ In summary, PRT enables fraud proofs that are secure where 1-of-N honesty suffic
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/fraud-proofs/references/daveconsensus/ -->
+<!-- source: https://docs.cartesi.io/fraud-proofs/references/daveconsensus/ -->
 
 # API Reference
 
@@ -40532,7 +40532,7 @@ An event emitted when a new Dave-App pair is deployed.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/fraud-proofs/references/deployments/ -->
+<!-- source: https://docs.cartesi.io/fraud-proofs/references/deployments/ -->
 
 # Deployments
 
@@ -40566,7 +40566,7 @@ This page covers the PRT and Honeypot v2 deployed contracts and their addresses.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/fraud-proofs/references/prt-v1-deployments/ -->
+<!-- source: https://docs.cartesi.io/fraud-proofs/references/prt-v1-deployments/ -->
 
 # Deployments
 
@@ -40600,7 +40600,7 @@ The Honeypot app has been updated. We recently found a bug in the application th
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/fraud-proofs/references/tournament/ -->
+<!-- source: https://docs.cartesi.io/fraud-proofs/references/tournament/ -->
 
 # PRT Core Contracts
 
@@ -41148,7 +41148,7 @@ An event emitted when a match is deleted.
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/get-started/ -->
+<!-- source: https://docs.cartesi.io/get-started/ -->
 
 # Welcome to Cartesi Docs
 
@@ -41211,7 +41211,7 @@ import DocCard from '@theme/DocCard';
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/get-started/app-chains/ -->
+<!-- source: https://docs.cartesi.io/get-started/app-chains/ -->
 
 ---
 id: app-chains
@@ -41269,7 +41269,7 @@ This gives developers flexibility to optimize for cost, performance, and user re
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/get-started/cartesi-machine/ -->
+<!-- source: https://docs.cartesi.io/get-started/cartesi-machine/ -->
 
 ---
 id: cartesi-machine
@@ -41334,7 +41334,7 @@ To conclude, the Cartesi Machine is the foundational component of the Cartesi in
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/get-started/cli-commands/ -->
+<!-- source: https://docs.cartesi.io/get-started/cli-commands/ -->
 
 ---
 id: cli-commands
@@ -41549,7 +41549,7 @@ cartesi status
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/get-started/fraud-proofs/ -->
+<!-- source: https://docs.cartesi.io/get-started/fraud-proofs/ -->
 
 ---
 id: fraud-proofs
@@ -41630,7 +41630,7 @@ Credits: [Fraud Proof Wars by L2Beat](https://medium.com/l2beat/fraud-proof-wars
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/get-started/optimistic-rollups/ -->
+<!-- source: https://docs.cartesi.io/get-started/optimistic-rollups/ -->
 
 # Optimistic Rollups
 
@@ -41679,7 +41679,7 @@ The main disadvantage is that state updates take time to finalize and are not en
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/get-started/quickstart/ -->
+<!-- source: https://docs.cartesi.io/get-started/quickstart/ -->
 
 ---
 id: quickstart
@@ -41818,7 +41818,7 @@ Deployment with a third-party service provider is under development and will be 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/new-to-cartesi/onboarding/ -->
+<!-- source: https://docs.cartesi.io/new-to-cartesi/onboarding/ -->
 
 ---
 id: onboarding
@@ -41937,7 +41937,7 @@ Navigate to [Cartesi Compute Tutorials](/compute/tutorials/) section for more ex
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/new-to-cartesi/overview/ -->
+<!-- source: https://docs.cartesi.io/new-to-cartesi/overview/ -->
 
 ---
 id: overview
@@ -41987,7 +41987,7 @@ You can think of Cartesi Rollups as a special operating system that makes your l
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/new-to-cartesi/scalability/ -->
+<!-- source: https://docs.cartesi.io/new-to-cartesi/scalability/ -->
 
 ---
 id: scalability
@@ -42036,7 +42036,7 @@ In general, L2 protocols belong to one of the following four categories:
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/calculator/cartesi-machine/ -->
+<!-- source: https://docs.cartesi.io/tutorials/calculator/cartesi-machine/ -->
 
 ---
 title: Calculator machine
@@ -42198,7 +42198,7 @@ cd ..
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/calculator/create-project/ -->
+<!-- source: https://docs.cartesi.io/tutorials/calculator/create-project/ -->
 
 ---
 title: Calculator project
@@ -42286,7 +42286,7 @@ export default config;
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/calculator/full-dapp/ -->
+<!-- source: https://docs.cartesi.io/tutorials/calculator/full-dapp/ -->
 
 ---
 title: Full Calculator dApp
@@ -42435,7 +42435,7 @@ In the next section, we will see how we can easily extend this idea to perform n
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/compute-env/ -->
+<!-- source: https://docs.cartesi.io/tutorials/compute-env/ -->
 
 ---
 title: Cartesi Compute SDK Environment
@@ -42492,7 +42492,7 @@ Alternatively, you may run the above `docker-compose` command in detached mode b
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/dogecoin-hash/cartesi-machine/ -->
+<!-- source: https://docs.cartesi.io/tutorials/dogecoin-hash/cartesi-machine/ -->
 
 ---
 title: Dogecoin Hash machine
@@ -42713,7 +42713,7 @@ cd ..
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/dogecoin-hash/create-project/ -->
+<!-- source: https://docs.cartesi.io/tutorials/dogecoin-hash/create-project/ -->
 
 ---
 title: Dogecoin Hash project
@@ -42829,7 +42829,7 @@ export default config;
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/dogecoin-hash/full-dapp/ -->
+<!-- source: https://docs.cartesi.io/tutorials/dogecoin-hash/full-dapp/ -->
 
 ---
 title: Full Dogecoin Hash dApp
@@ -43050,7 +43050,7 @@ With this tutorial, we have seen how it is possible to easily build a powerful a
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/dogecoin-hash/scrypt-c/ -->
+<!-- source: https://docs.cartesi.io/tutorials/dogecoin-hash/scrypt-c/ -->
 
 ---
 title: Computing scrypt using C
@@ -43308,7 +43308,7 @@ In practice, C code development would normally take place in the user's native e
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/generic-script/cartesi-machine/ -->
+<!-- source: https://docs.cartesi.io/tutorials/generic-script/cartesi-machine/ -->
 
 ---
 title: Generic Script machine
@@ -43480,7 +43480,7 @@ cd ..
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/generic-script/create-project/ -->
+<!-- source: https://docs.cartesi.io/tutorials/generic-script/create-project/ -->
 
 ---
 title: Generic Script project
@@ -43568,7 +43568,7 @@ export default config;
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/generic-script/custom-rootfs/ -->
+<!-- source: https://docs.cartesi.io/tutorials/generic-script/custom-rootfs/ -->
 
 ---
 title: Custom root file-system
@@ -43635,7 +43635,7 @@ And as such we have created our own customized root file-system, and can now foc
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/generic-script/full-dapp/ -->
+<!-- source: https://docs.cartesi.io/tutorials/generic-script/full-dapp/ -->
 
 ---
 title: Full Generic Script dApp
@@ -43843,7 +43843,7 @@ In the following sections, we will present additional ways in which data and res
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/gpg-verify/cartesi-machine/ -->
+<!-- source: https://docs.cartesi.io/tutorials/gpg-verify/cartesi-machine/ -->
 
 ---
 title: GPG Verify machine
@@ -44022,7 +44022,7 @@ cd ..
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/gpg-verify/create-project/ -->
+<!-- source: https://docs.cartesi.io/tutorials/gpg-verify/create-project/ -->
 
 ---
 title: GPG Verify project
@@ -44129,7 +44129,7 @@ With that set, in the next section we will learn how to supply this key to a Car
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/gpg-verify/ext2-gpg/ -->
+<!-- source: https://docs.cartesi.io/tutorials/gpg-verify/ext2-gpg/ -->
 
 ---
 title: Using ext2 files and GPG
@@ -44274,7 +44274,7 @@ exit
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/gpg-verify/full-dapp/ -->
+<!-- source: https://docs.cartesi.io/tutorials/gpg-verify/full-dapp/ -->
 
 ---
 title: Full GPG Verify dApp
@@ -44473,7 +44473,7 @@ Although fully functional, there is still one important aspect of our dApp that 
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/gpg-verify/larger-files/ -->
+<!-- source: https://docs.cartesi.io/tutorials/gpg-verify/larger-files/ -->
 
 ---
 title: Processing larger files
@@ -44720,7 +44720,7 @@ Furthermore, this GPG verification tutorial as a whole, albeit relatively simple
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/helloworld/cartesi-machine/ -->
+<!-- source: https://docs.cartesi.io/tutorials/helloworld/cartesi-machine/ -->
 
 ---
 title: Hello World machine
@@ -44912,7 +44912,7 @@ cd ..
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/helloworld/create-project/ -->
+<!-- source: https://docs.cartesi.io/tutorials/helloworld/create-project/ -->
 
 ---
 title: Creating basic dApp
@@ -45048,7 +45048,7 @@ npx hardhat compile
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/helloworld/deploy-run/ -->
+<!-- source: https://docs.cartesi.io/tutorials/helloworld/deploy-run/ -->
 
 ---
 title: Deploying and running
@@ -45182,7 +45182,7 @@ In the subsequent sections, we will explore additional features of the Cartesi C
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/helloworld/getresult/ -->
+<!-- source: https://docs.cartesi.io/tutorials/helloworld/getresult/ -->
 
 ---
 title: Retrieving result
@@ -45259,7 +45259,7 @@ In the [next section](../helloworld/deploy-run.md), we'll finally deploy and run
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/helloworld/instantiate/ -->
+<!-- source: https://docs.cartesi.io/tutorials/helloworld/instantiate/ -->
 
 ---
 title: Instantiating computation
@@ -45316,7 +45316,7 @@ At last, we should note that our method has a `uint256` return value. This value
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/introduction/ -->
+<!-- source: https://docs.cartesi.io/tutorials/introduction/ -->
 
 ---
 title: Introduction
@@ -45338,7 +45338,7 @@ After that first tutorial, the [Calculator dApp](../tutorials/calculator/create-
 
 ---
 
-<!-- source: https://docs.cartesi.io/CARTESI-docs2/pr-preview/pr-13/tutorials/requirements/ -->
+<!-- source: https://docs.cartesi.io/tutorials/requirements/ -->
 
 ---
 title: General requirements

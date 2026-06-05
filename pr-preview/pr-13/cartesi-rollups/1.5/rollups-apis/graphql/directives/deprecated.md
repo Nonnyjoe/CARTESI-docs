@@ -1,3 +1,27 @@
 > For the complete documentation index, see [llms.txt](https://docs.cartesi.io/llms.txt)
 
-# cartesi-rollups/1.5/rollups-apis/graphql/directives/deprecated
+---
+id: deprecated
+title: deprecated
+hide_table_of_contents: false
+---
+
+
+Marks an element of a GraphQL schema as no longer supported.
+
+```graphql
+directive @deprecated(
+  reason: String = "No longer supported"
+)
+```
+
+
+### Arguments
+
+#### [`reason`](#) ([`String`](../../scalars/string))
+
+Explains why this element was deprecated, usually also including a suggestion for how to access supported similar data. Formatted using the Markdown syntax, as specified by [CommonMark](https://commonmark.org/).
+
+
+
+

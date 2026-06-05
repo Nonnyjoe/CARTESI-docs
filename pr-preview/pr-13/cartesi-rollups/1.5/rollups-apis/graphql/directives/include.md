@@ -1,3 +1,27 @@
 > For the complete documentation index, see [llms.txt](https://docs.cartesi.io/llms.txt)
 
-# cartesi-rollups/1.5/rollups-apis/graphql/directives/include
+---
+id: include
+title: include
+hide_table_of_contents: false
+---
+
+
+Directs the executor to include this field or fragment only when the `if` argument is true.
+
+```graphql
+directive @include(
+  if: Boolean!
+)
+```
+
+
+### Arguments
+
+#### [`if`](#) ([`Boolean!`](../../scalars/boolean))
+
+Included when true.
+
+
+
+
